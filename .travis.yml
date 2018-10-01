@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: AyZt6IJ0FuREomAwsg3VQ/H54vDCgt6moW7sKVm3bTj6ujXCEPOYI4iEbYYMZuQ0tYVGqpCyEhw/5j3O42wpR8fQZIauUHbF2/iHgiM1ajvkf7sBm36fkj6XcTyIpgvaPMyduddSs9XXqZb1FMxtnVw8JFdZdfcXYTGqKs9npT0+CpWJisOblk/5y85tzvJiBNuAkdIie54qMYm5/O7blc9sOjWTVAc1LcMSPKJayjDS2MGqB7tvXZbotvKbcgdw5POSeAmjQjsZG9vnoafEAOSiZKKAcJiWBYDS4D1KWwat51prUHmXy9rrPBUijMX8AS58AuSU5FXuw81CG8mQZyxt8EpRt6T96q3gxPlhsLj6ukFV1KhBU5ut7/y3UJl5/z/bS0v2V6Rc+r3d1/4i36Yl8HahfOjI95aCqhD/emGBkiuml/f+fv+T7cWdcgVM2jEnzEbKpv2UwGzs4jMrZALfzQb9EcRnIt2qE7RGNK+FCnDCfN6Nn+9/rZ0Bh0kPf+PCe64dPtnbFdukIlPqRhV4kNwQKm85dBZLMlAjAu23+iNSy+qWWtuw79VUfkct5UaAWVd/sKA8BL8HQyNlam91R4lJA7xo1BCuXuyhCNeXmCp0zy9sW/p6cmJ+Y069vX+IsB76pXoQ0sR/cBlvtIJnoG9Iqf9GPxn70N9STMw=
+  app: sheltered-cliffs-64548
+  on:
+    repo: joshhrycek/node-shopping-list-integration-tests
