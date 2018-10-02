@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: JdvBqNQ2/xIoezD3KAe82t+ygWrOxz7sgLP2bzni5q3bQfg0203FCtzzm+McEdeJaxmfl44WT/UxriN2jM3MXmPliWWZBqNFdU8PGcbzpnXDcX93QAB9uIe15oo43v9QbAWF8zDZCFagzzYJ0uFXsPTHw/zCu1DxwnNZvw56KYwMEBZGhTejGad2gaUhO+LYrtW8wOKVy0rJ6VqbwgywFMxTS3Fc8pwk2/xcTGby/asArzFyi7k33De/ZTqsDcj58G5KfaIdkDrFderFONigsnBsLPTrugODrfflXIOfRkODo83M47xMS+X29+edVMnwmGDZ7E8A036WYKoWh4FCkvLkTcy3X+pTazP4e0Pl4W1IpGorCznaQP4eJ0k0qnHYZD520wv79/z/PL9Wqqeoular0zTSAqGI1secluzinp9c6Aseho65dzOSRVRTgjmXhFmEa2h4E/liNCUN+HcaRrwoNIQnNj+hSIPQ1KwEjIdUakdlRm1Tn3TrWDI6a5HCHXpdWl3ay9ZjQh9ZHMllRNdp/VjMn8u9i+PsyoooowPOwN1tyJXB96z/h7gVYSs1OJ7oTAaOhOhOA8Cx9RvCH7czS1QDKQUYfG4RLH4+J5SV/HIYfF1UADU6x3jCuYHRhmmSz+vo4Pzu8Ve0Gcvv9pZR0A0orbHLcqfbCKdyU9c=
-  app: node-shopping-list-integration-tests afternoon-temple-51268
+  app: node-shopping-list-integration-tests secure-harbor-41196
   on:
     repo: joshhrycek/node-shopping-list-integration-tests
