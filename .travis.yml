@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Slubdg6H+/uoM1E0ScjxQnokOfysAqB92dIjZV1U4W0wOSEqJ5NpW0/mX5EOmL4YW/bw8NwLYzzKxk/r70D8grgTeRk9IglcFO0O29D25I/4EVYZtrwLvJgbkQx2MpmC3wKJNmc7Mb3nleSL3bxB7zkxfg48tEaZdfKx47UO3IQDwzf4/kc7HrzH5dnLYGh6G7b85R1DhcIOuohXmC8GdcadJ2/Zgp+T84TBce+op1dthguG4ep/+Qy1fedEYgXen5AzabeT+0QUZ1aOspBlc/Nkdl2ioHG7TdnWT9wUHbwBwe9/PvzAuj2a7CZqjfYt86nnO0TZMgckQokUOQwK6rP8pKvCZXi3Oh7HWtCOzokW3KcDpBK+QKPtlaFnLIHjJ8P46X9Hg7Kvoz1QohHU4jJ76A9R2HAU1tIzxnpmbUhr7GAUUpnNOopuT+PUuXx4xJjSCV1OdgCeAe4m4ysquSEpJBvM2xYURGXXyXEe5buBezWF/JCWYgjcriIRq8RzM7HXO9OBn38X+GCbVanByUX17NgbvvU3eVdAaF+S5mHRoXEyfSrOyx7EjWucnYwc/Rso1gAsjyuXJNOYdR/QGYDfRFRHc5x5u6N3DwbSldESYDgu+RfNBU1B0lmXiIo73a6XLNB5kRlu6XHTR+/m0MAQMMB4QuIbnIq0hYrjNOo=
+  app: node-shopping-list-integration-tests peaceful-bastion-63479
+  on:
+    repo: joshhrycek/node-shopping-list-integration-tests
